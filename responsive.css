@@ -1,0 +1,25 @@
+@media(max-width: 576px){
+    header{
+        width: 100%;
+    }
+	.navbar{
+        display: none;
+
+    }
+    .menu{
+        display: flex;
+        
+        margin: auto;
+    }
+    .menu-btn{
+        display: block;
+       text-align: center;
+       align-items: center;
+        margin-left: 5rem;
+     }
+     .bannar{
+        display: block;
+     }
+ 
+
+}

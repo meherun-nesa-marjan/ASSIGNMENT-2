@@ -1,25 +1,97 @@
 @media(max-width: 576px){
-    header{
-        width: 100%;
-    }
-	.navbar{
-        display: none;
 
-    }
-    .menu{
-        display: flex;
-        
-        margin: auto;
-    }
-    .menu-btn{
-        display: block;
-       text-align: center;
-       align-items: center;
-        margin-left: 5rem;
-     }
+   
+   header{
+      width: 100%;
+      height: auto;
+   }
+   nav{
+    
+   }
+
+   
      .bannar{
-        display: block;
+        flex-direction: column;
+        width: 90%;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+       
      }
+     .bannar-img{
+      width: 100%;
+     }
+     .menu-btn{
+      display: block;
+      text-align: center;
+      justify-content: center;
+      
+      
+    }
+   .navbar ul{
+       display: none;
+    }
+    .bannar-text{
+      width: 100%;
+      margin-top: 20px;
+    }
+    .bannar-content{
+      width: 80%;
+    }
+    .bannar-text h1{
+      font-size: 2rem;
+      
+    }
+    .bannar-text p{
+      font-size: .95rem;
+      
+  }
+    button{
+      padding: 8px 20px; 
+      border-radius: 46px;
+      margin-left: 5px;
+     
+  }
+  .btn{
+   padding: 8px 20px; 
+   border-radius: 46px;
+  }
+
+  .box{
+    height: 68px;
+    width: 145px;
+    top: 300px;
+    left: 15px;
+    font-size: 12px;
+  }
+ .box-item{
+  height: 70px;
+  width: 140px;
+  top: 40px;
+  left: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .box-text-1{
+  margin: 15px;
+  
+ }
+.box-b{
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+.run-img{
+  width: 100%;
  
+}
+.habit-img{
+  display: grid;
+  grid-template-columns:repeat(1, 1fr);
+  
+}
+
+
 
 }

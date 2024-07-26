@@ -15,6 +15,7 @@ a{
 }
 p{
     color: #8b8b8b;
+    line-height: 1.5rem;
 }
 ul{
 	list-style: none;
@@ -281,15 +282,76 @@ h1{
 }
 .bmi-table{
     color: #ffffff;
+    padding: 50px 0;
 }
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid #393939;
     border-collapse: collapse;
+    color: #919191;
+  
   }
+  th, td {
+    padding: 15px;
+    text-align: left;
+    height: 1rem ;
+  }
+  table{
+    width: 90%;
+    
+  }
+
   .bmi-table-section{
     display: flex;
     justify-content: space-between;
   }
+  .table-item{
+    width: 35%;
+  }
+  .table-item h2{
+    margin-bottom: 50px;
+    font-weight: bolder;
+  }
+  .bmi-item{
+    width: 55%;
+  }
+  .bmi-item h2{
+    margin-bottom: 50px;
+    font-weight: bolder;
+  }
+  .bmi-item p{
+    margin-bottom: 50px;
+    line-height: 2rem;
+  }
+  label{
+    margin-right: 15px;
+   
+  }
+    
+  input{
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+  }
+  select{
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    width: 44%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+  }
+.large{
+    width: 92%;
+}
+option{
+    background-color: transparent;
+    color: #000;
+}
 
 
 
@@ -302,7 +364,7 @@ table, th, td {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    width: 100%;
+   
     padding: 20px;
     margin-top: 50px;
     border-radius: 12px;
@@ -322,9 +384,7 @@ table, th, td {
 h4{
     color: #ffffff;
 }
-.team-member-img{
-    position: relative;
-}
+
 .team-member{
     position: relative;
 }

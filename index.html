@@ -133,7 +133,7 @@
         </div>
  
     </div>
-    <div class="bmi-table">
+    <div class="bmi-table gray">
        <div class="bmi-table-section containar">
         <div class="table-item">
             <h2>BMI Calculator Chart</h2>
@@ -166,8 +166,39 @@
             <h2>Calculate your BMI</h2>
             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
             <form class="form-item">
-                <input type="number" placeholder="Height/cm">
-                <input type="number" placeholder="Age">
+                <label for="Height">
+                    <input type="text" id="Height" placeholder="Height/cm">
+                </label>
+                <label for="weight">
+                    <input type="text" id="weight" placeholder="Weight/kg">
+                </label>
+                <br>
+                <label for="age">
+                    <input type="text" id="age" placeholder="Age">
+                </label>
+                
+                <label for="">
+                    <select name="gender" id="">
+                        <option value="sex">Sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Others</option>
+                    </select>
+                </label>
+                <label for="">
+                    <br>
+                    <select class="large" name="activity" id="">
+                        <option value="select">Select an activity factor</option>
+                        <option value="a">A</option>
+                        <option value="b">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="e">F</option>
+                    </select>
+                </label><br>
+               <label> <button>Calculate</button></label>
+
+             
             </form>
         </div>
        </div>
@@ -269,7 +300,7 @@
    
 <!-- =========  footer SECTION ===== ---->
     <footer class="gray">
-        <div class="footer-item containar">
+        <div class="footer-section containar">
            <div class="footer-item">
             <div class="footer-items">
                 <h1 class="bold">Fitness</h1>

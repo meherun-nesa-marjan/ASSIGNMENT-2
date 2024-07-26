@@ -223,6 +223,7 @@ h5{
 }
 h1{
     color: #ffffff;
+    margin-bottom: 20px;
 }
 .habit-img{
     display: grid;
@@ -269,4 +270,154 @@ h1{
 }
 .run-text p{
     margin-bottom: 22px;
+}
+/*--- BMI --- */
+
+.bmi-tittle{
+    margin:50px auto;
+    align-items: center;
+    width: 65%;
+
+}
+.bmi-table{
+    color: #ffffff;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  .bmi-table-section{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+  /*---- team ---- */
+
+  .team-img{
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 12px;
+   
+    
+  }
+  .team-member{
+    height: 272px;
+
+  }
+.team-member img{
+    width: 100%;
+    border-radius: 18px;
+    height: 100%;
+   
+}
+h4{
+    color: #ffffff;
+}
+.team-member-img{
+    position: relative;
+}
+.team-member{
+    position: relative;
+}
+.team-tittle{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+/*======= app ===== */
+
+
+
+
+.app{
+	
+
+}
+.app-scetion{
+    width: 100%;
+    
+
+}
+
+.features-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+
+
+.features-main{
+	width: 30%;
+	margin: 0 16px;
+	
+
+}
+.features-text{
+	align-items: center;
+	
+}
+
+.app-text p{
+	margin-bottom: 50px;
+
+}
+.features-text p{
+    margin-bottom: 90px;
+}
+.features-box{
+	width: 310px;
+	height: 470px;
+	background-color: #000;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 0px 5px 5px #b2b2b2;
+	margin: auto;
+
+}
+.features-innerbox{
+	width: 90%;
+	height: 80%;
+	position: absolute;
+	top: 43px;
+	left: 17px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 2rem;
+    color:#a42c19 ;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.features-box::after{
+	content: '';
+	width: 2px;
+	height: 30px;
+	background-color: #000;
+	display: block;
+	position: absolute;
+	top: 18%;
+	left: 100%;
+}
+.features-box::before{
+	content: '';
+	width: 2px;
+	height: 30px;
+	background-color: #000;
+	display: block;
+	position: absolute;
+	top: 26%;
+	left: 100%;
 }

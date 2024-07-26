@@ -82,16 +82,99 @@
   width: 30px;
   margin-right: 5px;
 }
-.run-img{
-  width: 100%;
- 
+.habit-img-item{
+ margin-bottom: 20px;
+
+}
+.habit-img-item h5{
+  font-size: 1.5rem;
+}
+
+.habit-text{
+  width: 90%;
 }
 .habit-img{
   display: grid;
   grid-template-columns:repeat(1, 1fr);
   
 }
+.run{
+  flex-direction: column;
+  width: 85%;
+  height: auto;
+}
+.run-text{
+  width: 90%;
+}
+.run-img{
+  width: 90%;
+  margin-left: 5px;
+}
+.responsive-btn{
+ 
+  width: 90%;
+  height: 50px;
+  
+}
+.bmi-tittle{
+ text-align: start;
+  width: 90%;
+
+}
 
 
+.team-img{
+  
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+ 
+  
+}
+
+.features-content{
+	flex-direction: column;
+	
+
+}
+
+
+.features-main{
+	width: 100%;
+	margin: 0 16px;
+	
+
+}
+.features-box{
+  width: 250px;
+  height: 350px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.features-innerbox{
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+
+.features-box::after{
+content: '';
+width: 1.5px;
+height: 25px;
+background-color: #000;
+display: block;
+position: absolute;
+top: 18%;
+left: 100%;
+}
+.features-box::before{
+content: '';
+width: 1.5px;
+height: 25px;
+background-color: #000;
+display: block;
+position: absolute;
+top: 30%;
+left: 100%;
+}
 
 }

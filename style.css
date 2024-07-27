@@ -21,12 +21,15 @@ ul{
 	list-style: none;
 
 }
-button{
+.btn-primary{
     padding: 16px 40px; 
     border-radius: 46px;
     background: #d74f39;
     color: #ffffff;
+    font-weight: bolder;
+    font-size: 1rem;
 }
+
 .btn{
     margin-left: 5px;
     background: #000;
@@ -125,9 +128,15 @@ nav{
 
 }
 .bannar-text{
-    width: 40%;
+    width: 55%;
     margin: 100px 32px 48px 0px ;
     align-items: center;
+    border: #fff 1px solid;
+
+}
+.bannar-content{
+    border: #fff 1px solid;
+    width: 90%;
 
 }
 .bannar-text h1{
@@ -146,15 +155,21 @@ nav{
     font-family: "Playwrite AT", cursive;
     font-weight: 200;
 }
+
+/*------ bannar- img  -----*/
+
+
 .bannar-img{
     height: 580px;
     width: 349px;
     position: relative;
+    border: #fff 1px solid;
 }
 .bannar-img img{
     width: 100%;
-    height: 100%;
+    height: 580px;
 }
+   
 .box{
     height: 96px;
     width: 206px;
@@ -164,8 +179,8 @@ nav{
     align-items: center;
     display: flex;
     position: absolute;
-    top: 470px;
-    right: 195px;
+    top: 75%;
+    right: 68%;
     border: #5a5049 1px solid;
    
 
@@ -177,18 +192,19 @@ nav{
     font-weight: bolder;
 }
 .box-item{
-    height: 98px;
-    width: 193px;
+    height: 96px;
+    width: 206px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    display: flex;
     position: absolute;
-    top: 160px;
-    left: 220px;
-    border: #5a5049 1px solid;  
+    top: 20%;
+    left: 60%;
+    border: #5a5049 1px solid;
 }
+   
 
 .box-text-1 h2{
     font-weight: bolder;
@@ -196,8 +212,8 @@ nav{
    
 
 .box-b{
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     background: #d74f39 ;
     border-radius: 50%;
     margin-right: 10px;
@@ -297,7 +313,7 @@ table, th, td {
   }
   table{
     width: 90%;
-    
+
   }
 
   .bmi-table-section{
@@ -340,7 +356,7 @@ table, th, td {
     padding: 12px;
     margin-bottom: 12px;
     border-radius: 8px;
-    width: 44%;
+    width: 45%;
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
     border: none;
@@ -373,11 +389,12 @@ option{
   }
   .team-member{
     height: 272px;
+   
 
   }
 .team-member img{
     width: 100%;
-    border-radius: 18px;
+    border-radius: 20px;
     height: 100%;
    
 }

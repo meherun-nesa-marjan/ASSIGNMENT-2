@@ -131,11 +131,11 @@ nav{
     width: 55%;
     margin: 100px 32px 48px 0px ;
     align-items: center;
-    border: #fff 1px solid;
+   
 
 }
 .bannar-content{
-    border: #fff 1px solid;
+   
     width: 90%;
 
 }
@@ -163,7 +163,7 @@ nav{
     height: 580px;
     width: 349px;
     position: relative;
-    border: #fff 1px solid;
+   
 }
 .bannar-img img{
     width: 100%;

@@ -263,10 +263,19 @@ p{
  
  .btn-primary-responsive{
 
-  padding: 15px 12px; 
-  border-radius: 46px;
+  padding: 15px 18px; 
+  border-radius: 40px;
   margin-left: 5px;
  }
  
+ .footer-text p{
+  font-size: 1.2rem;
+}
+}
 
+@media(max-width: 360px){
+
+  .btn{
+    margin-top: 10px;
+   }
 }

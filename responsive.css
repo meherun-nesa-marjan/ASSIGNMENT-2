@@ -275,13 +275,8 @@ p{
 
 @media(max-width: 360px){
 
- /* .btn{
+ .btn{
     margin-top: 10px;
-   }*/
-   .btn-primary-responsive{
-
-    padding: 10px 12px; 
-    border-radius: 35px;
-    margin-left: 2px;
    }
+ 
 }

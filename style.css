@@ -16,6 +16,7 @@ a{
 p{
     color: #8b8b8b;
     line-height: 1.5rem;
+   
 }
 ul{
 	list-style: none;
@@ -27,7 +28,8 @@ ul{
     background: #d74f39;
     color: #ffffff;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1rem; 
+    border: none;
 }
 
 .btn{

@@ -10,6 +10,7 @@
 img{
     width: 100%;
 }
+
 a{
 	text-decoration: none;
 }
@@ -266,9 +267,17 @@ h1{
     display: flex;
     justify-content: space-between;
     background-color: #222222;
-    height: 320px;
-    padding: 24px;
+   
+   
     border-radius: 18px;
+}
+.run-content{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+   
+    height: 320px;
 }
 .run-img{
     width: 45%;
@@ -285,9 +294,11 @@ h1{
 }
 .run-text h1{
     margin-bottom: 20px;
+    font-weight: 700;
 }
 .run-text p{
     margin-bottom: 22px;
+   
 }
 /*--- BMI --- */
 
@@ -363,7 +374,7 @@ table, th, td {
     border: none;
   }
 .large{
-    width: 92%;
+   width: 92%;
 }
 option{
     background-color: transparent;

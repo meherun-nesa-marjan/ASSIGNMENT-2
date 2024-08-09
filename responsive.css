@@ -272,6 +272,19 @@ p{
 }
 
 
+@media(max-width: 421px){
+
+  select{
+    
+    width: 48%;
+  
+  }
+.large{
+   width: 98%;
+}
+
+  
+ }
 
 @media(max-width: 360px){
 

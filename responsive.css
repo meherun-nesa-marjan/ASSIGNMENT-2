@@ -60,7 +60,11 @@
       margin-left: 5px;
   }
 
-
+  .play-icon{
+   
+   display: flex;
+   
+}
   .box{
     height: 86px;
     width: 160px;
@@ -272,7 +276,7 @@ p{
 }
 
 
-@media(max-width: 421px){
+@media(max-width: 425px){
 
   select{
     
